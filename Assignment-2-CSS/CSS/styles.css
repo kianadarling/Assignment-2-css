@@ -1,0 +1,285 @@
+
+/*set margin and height for the body and html elemnt*/
+body, html {
+    margin: 0;
+    height: 300vh;/*set the height to 300 viewport heights*/
+    overflow: scroll;
+  }
+  
+  /*styles for a background container*/
+  .background {
+    background-repeat: no-repeat;/*no repeat for tehbackground image*/
+    background-position: center;/*position teh background image to the center*/
+    height: 300vh;/*set teh height to 300 viewport heights*/
+    display: flex;/*use felxbox for layout*/
+    align-items: center;/*center items vertically*/
+    justify-content: center;/*center items horizontally*/
+    position: relative;/*set the position relative to it's normal postion*/
+    background: linear-gradient(110deg, #fdcd3b 0%, #ffed4b 40%, RGB(161, 127, 26) 60%); /* cedit for having multiple colors in the background: https://blog.prototypr.io/css-only-multi-color-backgrounds-4d96a5569a20 */
+  }
+  
+  /*styles for the h1 elemnt with the. RedSparrow class*/
+  .Pchelovod {
+      color: rgb(105, 66, 2);/*set the text color to rgb(105, 66, 2)*/
+      font-size: 5rem;/*set the font size to 5rem*/
+      font-family: 'Vandal Display', sans-serif;/*use 'Vandal Display'font for fallback to sans-serif*/
+      text-transform: uppercase;/*transform text to uppercase*/
+      letter-spacing: 10px;/*add 10px spaceing between letetrs*/
+      word-spacing: 30px;/*add 30px spacing between words*/
+      text-align: center;/*center-align the text*/
+      margin-top: -500px;/*set top margin with -500px*/
+      margin-left: 75px;/*set the margin-left to 75px*/
+    }
+  
+  /*styles for the .p1 class*/
+  .p1{
+      color: rgb(156, 81, 19);/*set the text color to rgb(156, 81, 19)*/
+      font-size: 1.3rem;/*set the font size to 1.3rem*/
+      font-family: 'Bradley Hand', cursive;/*use 'Bradley Hand', cursive*/
+      letter-spacing: 5px;/*add 5px spaceing between letetrs*/
+      text-align: center;/*center-align the text*/
+      margin-left: 60px;/*set the margin-left to 60px*/
+
+  }
+  
+
+  /*styles for the .p2 class*/
+  .p2 {
+
+    color: rgb(132, 63, 7);/*set the text color to rgb(132, 63, 7)*/
+    font-size: 1rem;/*set the font size to 1rem*/
+    font-family: 'Vandal Display', sans-serif;/*use 'Vandal Display'font for fallback to sans-serif*/
+    letter-spacing: 5px;/*add 5px spaceing between letetrs*/
+    text-align: center;/*center-align the text*/
+    margin-top: 100px;/*set top margin with 100px*/
+    margin-left: 60px;/*set the margin-left to 60px*/
+  }
+  
+
+
+  .p3{
+    color: rgb(98, 20, 3);/*set the text color to rgb(98, 20, 3)*/
+    font-size: 1rem;/*set the font size to 1rem*/
+    font-family: 'American Typewriter', serif;/*useing 'American Typewriter, serif for I'm lucky*/
+    letter-spacing: 5px;/*add 5px spaceing between letetrs*/
+    text-align: center;/*center-align the text*/
+    margin-top: 10px;/*set top margin with 10px*/
+    margin-left: 60px;/*set the margin-left to 60px*/
+}
+
+  .p4{
+    color: rgb(143, 28, 2);/*set the text color to rgb(143, 28, 2)*/
+    font-size: 1rem;/*set the font size to 1rem*/
+    font-family: 'Vandal Display', sans-serif;/*use 'Vandal Display'font for fallback to sans-serif*/
+    letter-spacing: 5px;/*add 5px spaceing between letetrs*/
+    text-align: center;/*center-align the text*/
+    margin-top: 10px;/*set top margin with 10px*/
+    margin-left: 60px;/*set the margin-left to 60px*/
+  }
+
+  .p5 {
+    color: rgb(173, 35, 4);/*set the text color to rgb(173, 35, 4)*/
+    font-size: 1rem;/*set the font size to 1rem*/
+    font-family: 'Vandal Display', sans-serif;/*use 'Vandal Display'font for fallback to sans-serif*/
+    letter-spacing: 5px;/*add 5px spaceing between letetrs*/
+    text-align: center;/*center-align the text*/
+    margin-top: 10px;/*set top margin with 10px*/
+    margin-left: 60px;/*set the margin-left to 60px*/
+  }
+
+  /*The rest of teh paragraphs are all teh same but with diffrent shades of color*/
+  .p6 {
+    color: rgb(199, 40, 5);
+    font-size: 1rem;
+    font-family: 'Vandal Display', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .p7{
+    color: rgb(255, 47, 0);
+    font-size: 1.2rem; /*set the font size to 1.2rem*/
+    font-family: 'Vandal Display', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+
+  .p8 {
+    color: rgb(154, 68, 6);
+    font-size: 1.5rem;/*set the font size to 1.5rem*/
+    font-family: 'Vandal Display', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .p9 {
+    color: rgb(184, 80, 6);
+    font-size: 1.6rem;/*set the font size to 1.6rem*/
+    font-family: 'Vandal Display', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .p10 {
+    color: rgb(69, 48, 2);
+    text-transform: uppercase;
+    font-size: 1.8rem;/*set the font size to 1.8rem*/
+    font-family: 'Vandal Display', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .p11 {
+    color: rgb(225, 18, 18);
+    font-size: 2rem;/*set the font size to 2rem*/
+    font-family: 'Trattatello', fantasy;/*use 'Trattatello', fantasy*/
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .p12 {
+    color: rgb(153, 11, 11);
+    text-transform: uppercase;
+    font-size: 2rem;/*set the font size to 2rem*/
+    font-family: 'Trattatello', fantasy;/*use 'Trattatello', fantasy*/
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .p13 {
+    color: rgb(225, 18, 18);
+    font-size: 2rem;
+    font-family: 'Trattatello', fantasy;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .p14 {
+    color: #3a2601;
+    text-transform: uppercase;
+    font-size: 1.8rem;/*set the font size to 1.8rem*/
+    font-family: 'Vandal Display', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .p15 {
+    color: #705916;
+    font-size: 1.6rem;/*set the font size to 1.6rem*/
+    font-family: 'Vandal Display', sans-serif;/*use 'Vandal Display'font for fallback to sans-serif*/
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .p16 {
+    color: #7f6518;
+    font-size: 1.5rem;
+    font-family: 'American Typewriter', serif;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .p17 {
+    color: rgb(244, 244, 187);
+    font-size: 1.2rem;
+    font-family: 'Vandal Display', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .p18 {
+    color: lightyellow;
+    font-size: 1rem;
+    font-family: 'Vandal Display', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .p19 {
+    color: white;
+    font-size: 1rem;
+    font-family: 'American Typewriter', serif;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .p20 {
+    color: rgb(237, 237, 185);
+    font-size: 1rem;
+    font-family: 'Vandal Display', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .p21 {
+    color: rgb(219, 219, 134);
+    font-size: 1rem;
+    font-family: 'Vandal Display', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .p22 {
+    color: rgb(219, 219, 97);
+    font-size: 1rem;
+    font-family: 'Vandal Display', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .p23 {
+    color: rgb(223, 223, 79);
+    font-size: 1rem;
+    font-family: 'Vandal Display', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .p24 {
+    color: rgb(235, 235, 151);
+    font-size: 1rem;
+    font-family: 'Vandal Display', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .p25 {
+    color: lightyellow;
+    font-size: 1rem;
+    font-family: 'Vandal Display', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .p26 {
+    color: white;
+    font-size: 1rem;
+    font-family: 'American Typewriter', serif;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+
+ 
